@@ -1,0 +1,79 @@
+/*
+Anthony Chad 
+5/3/16
+Period 8
+Animal Project
+*/
+
+
+/*rounds pictures corners.*/
+img {
+    border-radius: 8px;
+}
+/*printed text will be green font size 23.*/
+p{
+	color: black;
+	font-size:23;
+}
+/*centers headings in the green color.*/
+h1{
+	color: limegreen;
+	text-align: center;
+}
+/*this is for video spacing,  it centers our video.*/
+video{
+margin-left: 18%
+}
+/*dropdown functionality.*/
+.dropbtn {
+    background-color: #4CAF50;
+    color: Black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	width: 418px;
+	min-width:418px;
+}
+/*dropdown itself.*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+/*The stuff the dropdowns button generates after being hovered over.*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+	max-width: 10%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	Z-index:100;
+}
+/*design customization for the a links in the dropdown content.*/
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/*this will display in a block.*/
+/*You hover for it to work.*/
+.dropdown-content a:hover {background-color: #f1f1f1}
+/*it makes a dropdown.*/
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+#rcorners1 {
+    border-radius: 25px;
+    background-color:rgba(0,255,0,0.4);
+    padding: 20px; 
+    width: 90%;
+    height: auto; 
+	text-align: center;
+	
+}
