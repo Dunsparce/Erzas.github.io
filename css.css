@@ -4,10 +4,7 @@ img {
     border-radius: 8px;
 }
 /*printed text will be green font size 23.*/
-p{
-	color: black;
-	font-size:23;
-}
+
 /*centers headings in the green color.*/
 h1{
 	color: limegreen;
@@ -72,4 +69,5 @@ margin-left: 18%
 }
 p{
 color: blue;	
+font size: 23;
 }
